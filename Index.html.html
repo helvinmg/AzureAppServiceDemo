@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure App Service</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #0078d4;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            position: sticky;
+            top: 0;
+            overflow: hidden;
+        }
+
+        nav a {
+            color: white;
+            float: left;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        section {
+            padding: 20px;
+            margin: 10px 0;
+        }
+
+        section h2 {
+            color: #0078d4;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            /* position: fixed; */
+            /* width: 100%; */
+            /* height: 50px; */
+    
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .content,
+        .sidebar {
+            width: 48%;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: #0078d4;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .btn:hover {
+            background-color: #005f96;
+        }
+
+        /* #resources
+        {
+            margin-bottom: 20px;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Welcome to Azure App Service</h1>
+    </header>
+
+    <nav>
+        <a href="#intro">Introduction</a>
+        <a href="#features">Features</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#resources">Resources</a>
+    </nav>
+
+    <section id="intro">
+        <div class="container">
+            <div class="content">
+                <h2>What is Azure App Service?</h2>
+                <p>Azure App Service is a fully managed platform for building, deploying, and scaling web apps. It provides a wide range of features like auto-scaling, patching, and deployment slots that make it easier to manage web applications in the cloud.</p>
+                <a href="#pricing" class="btn">Learn More</a>
+            </div>
+            <div class="sidebar">
+                <img width="400px" src="https://www.thepsi.com/wp-content/uploads/2019/09/Automate-With-Control-or-Automate-With-Ease-inner-2.jpg" alt="Azure App Service">
+            </div>
+        </div>
+    </section>
+
+    <section id="features">
+        <div class="container">
+            <div class="content">
+                <h2>Key Features of Azure App Service</h2>
+                <ul>
+                    <li>Fully managed hosting platform</li>
+                    <li>Support for multiple programming languages</li>
+                    <li>Auto-scaling and load balancing</li>
+                    <li>Integrated with Azure DevOps for CI/CD</li>
+                    <li>Secure and compliant environment</li>
+                </ul>
+                <a href="#resources" class="btn">Explore Features</a>
+            </div>
+            <div class="sidebar">
+                <img width="300px" src="https://shinrai.asia/blog/blogcms/production/article_img/161Figure-1-Azure-App-Service-overview-2.png" alt="Azure App Service Features">
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing">
+        <div class="content">
+            <h2>Pricing</h2>
+            <p>Azure App Service offers a variety of pricing plans based on your app's requirements. Whether you're hosting a simple website or a large-scale enterprise app, there's a plan that suits your needs.</p>
+            <a href="#resources" class="btn">View Pricing</a>
+        </div>
+    </section>
+
+    <section id="resources">
+        <div class="content">
+            <h2>Resources</h2>
+            <p>Learn more about how to get started with Azure App Service through our comprehensive resources:</p>
+            <ul>
+                <li><a href="https://learn.microsoft.com/en-us/azure/app-service/overview" target="_blank">Azure App Service Documentation</a></li>
+                <li><a href="https://learn.microsoft.com/en-us/azure/app-service/quickstart" target="_blank">Quickstart Guide</a></li>
+                <li><a href="https://azure.microsoft.com/en-us/pricing/details/app-service/" target="_blank">Pricing Details</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Helvin M Geevar - All Rights Reserved</p>
+    </footer>
+
+</body>
+
+</html>
